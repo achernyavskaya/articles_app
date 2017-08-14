@@ -23,7 +23,7 @@ class App extends React.Component {
     }
 
     render() {
-        /*let that = this;*/
+        let that = this;
         let url = "./" + data.post_name;
         let articleList = data.map(function(data){
             return (
